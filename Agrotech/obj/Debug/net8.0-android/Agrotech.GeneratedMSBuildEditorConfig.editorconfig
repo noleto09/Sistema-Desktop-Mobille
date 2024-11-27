@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Agrotech
+build_property.ProjectDir = C:\Users\nolet\Documents\SISTEMA COMPLETO MOBILLE\Agrotech\Agrotech\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Pagina Insumo/CadastroInsumo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Pagina_Insumo.CadastroInsumo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pagina Insumo\CadastroInsumo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pagina Insumo\CadastroInsumo.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Pagina Insumo/RetirarInsumo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Pagina_Insumo.RetirarInsumo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pagina Insumo\RetirarInsumo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pagina Insumo\RetirarInsumo.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Pagina Insumo/SelecionarInsumo.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Pagina_Insumo.SelecionarInsumo.xaml
+build_metadata.AdditionalFiles.TargetPath = Pagina Insumo\SelecionarInsumo.xaml
+build_metadata.AdditionalFiles.RelativePath = Pagina Insumo\SelecionarInsumo.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Pagina Produto/CadastroProduto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Pagina_Produto.CadastroProduto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pagina Produto\CadastroProduto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pagina Produto\CadastroProduto.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Pagina Produto/SelecionarProduto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Pagina_Produto.SelecionarProduto.xaml
+build_metadata.AdditionalFiles.TargetPath = Pagina Produto\SelecionarProduto.xaml
+build_metadata.AdditionalFiles.RelativePath = Pagina Produto\SelecionarProduto.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Paginas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Paginas.xaml
+build_metadata.AdditionalFiles.TargetPath = Paginas.xaml
+build_metadata.AdditionalFiles.RelativePath = Paginas.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/nolet/Documents/SISTEMA COMPLETO MOBILLE/Agrotech/Agrotech/Tela Login/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Agrotech.Tela_Login.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Tela Login\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Tela Login\MainPage.xaml

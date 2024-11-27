@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agrotech.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Image
+         Source="agross.jpg"
+         Aspect="AspectFill"
+         SemanticProperties.Description="Imagem de fundo"
+         VerticalOptions="FillAndExpand"
+         HorizontalOptions="FillAndExpand"
+         Grid.Row="0"
+         Grid.Column="0"
+         Opacity="0.8" />
+
+        <StackLayout
+         VerticalOptions="Center"
+         HorizontalOptions="Center"
+         Padding="20"
+         Spacing="15"
+         Grid.Row="0"
+         Grid.Column="0">
+
+            <Image
+             Source="img_login.jpg"
+             HeightRequest="70"
+             Aspect="AspectFit"
+             SemanticProperties.Description="Imagem de login" />
+
+            <Frame
+             BackgroundColor="White"
+             CornerRadius="10"
+             Padding="10"
+             HasShadow="True"
+             WidthRequest="300">
+                <StackLayout Spacing="10">
+                    <Entry
+                     x:Name="Username"
+                     Placeholder="Usuário"
+                     WidthRequest="250"
+                     HeightRequest="40"
+                     Completed="OnUsernameCompleted" />
+                    <!-- Evento Completed -->
+
+                    <Grid>
+                        <Entry
+                         x:Name="Password"
+                         Placeholder="Senha"
+                         IsPassword="True"
+                         WidthRequest="250"
+                         HeightRequest="40"
+                         Completed="OnPasswordCompleted" />
+                        <!-- Evento Completed -->
+                        <ImageButton
+                         Source="eye_icon.png"
+                         WidthRequest="30"
+                         HeightRequest="30"
+                         BackgroundColor="Transparent"
+                         HorizontalOptions="End"
+                         VerticalOptions="Center"
+                         Clicked="TogglePasswordVisibility" />
+                    </Grid>
+                </StackLayout>
+            </Frame>
+
+            <Label
+             Text="Esqueceu a senha?"
+             TextColor="White"
+             HorizontalOptions="Center">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnForgotPasswordTapped" />
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Button
+             x:Name="Login"
+             Text="Entrar"
+             Clicked="Login_Clicked_1"
+             BackgroundColor="#00AEEF"
+             TextColor="White"
+             WidthRequest="100"
+             HeightRequest="40"
+             HorizontalOptions="Center" />
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

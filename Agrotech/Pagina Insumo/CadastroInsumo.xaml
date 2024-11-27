@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agrotech.CadastroInsumo"
+             Title="CadastroInsumo">
+
+    <StackLayout>
+        <ScrollView>
+            <Grid>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="AUTO"/>
+                </Grid.RowDefinitions>
+
+
+
+                <Label 
+         Text="Número de cadastro:" 
+         FontSize="20" 
+         TextColor="Black"
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"  
+         Margin="10,20,0,0"/>
+                <Entry
+          x:Name="Nm_Cadastro_Insumo"
+         IsEnabled="False"
+         Placeholder="ID"  
+         PlaceholderColor="Black" 
+         FontSize="20"
+         TextColor="Black"
+         HorizontalOptions="StartAndExpand" 
+         WidthRequest="100" 
+         HeightRequest="60"   
+         Grid.Row="0"
+         Margin="220,20,0,0"/>
+
+                <Label 
+         Text="Produto:" 
+         FontSize="20" 
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"
+         Grid.Column="0"
+         Grid.Row="1"
+         Margin="10,0,0,0"/>
+                <Entry
+         x:Name="CadastroInsumoEntry"
+         IsEnabled="False"
+         Placeholder="Nome do Produto"
+         PlaceholderColor="Black"
+         FontSize="20"
+         TextColor="Black"
+         WidthRequest="190" 
+         HeightRequest="60" 
+         Grid.Column="0"
+         Grid.Row="1"
+         Margin="70,0,0,0"/>
+
+                <Label 
+         Text="Unidade:" 
+         FontSize="20" 
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"
+         Grid.Column="0"
+         Grid.Row="2"
+         Margin="10,0,0,0"/>
+                <Entry
+         x:Name="UnidadeInsumoEntry"
+         IsEnabled="False"
+         Placeholder="UN"  
+         PlaceholderColor="Black"
+         FontSize="20"
+         HorizontalOptions="StartAndExpand" 
+         WidthRequest="100" 
+         HeightRequest="60" 
+         Grid.Column="0"
+         Grid.Row="2"
+         Margin="100,0,0,0"/>
+
+                <Button
+             Clicked="Button_Salvar_Insumo"
+             Text="Salvar Produto"
+             VerticalOptions="Fill"
+             HorizontalOptions="Start"
+             FontSize="19"
+             BackgroundColor="#32CD32"
+             WidthRequest="190"
+             HeightRequest="50"
+             Grid.Row="2"
+             Margin="150,0,0,0"
+             Padding="0,10,0,10"/>
+
+
+                <Label 
+         Text="Quantidade:" 
+         FontSize="20" 
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"
+         Grid.Column="0"
+         Grid.Row="3"
+         Margin="10,10,0,0"/>
+                <Entry
+         x:Name="Quantidade_Entry_Insumo"
+         IsEnabled="False"
+         Placeholder="QT" 
+         PlaceholderColor="Black"
+         FontSize="20"
+         HorizontalOptions="StartAndExpand" 
+         WidthRequest="100" 
+         HeightRequest="60" 
+         Grid.Column="0"
+         Grid.Row="3"
+         Margin="140,0,0,0"/>
+
+                <Button
+     Clicked="Button_Salvar_Lote_Insumo"
+     Text="SALVAR LOTE"
+     VerticalOptions="Fill"
+     HorizontalOptions="Start"
+     FontSize="19"
+     BackgroundColor="#df0000"
+     WidthRequest="150"
+     HeightRequest="50"
+     Grid.Row="3"
+     Margin="190,0,0,0"/>
+
+
+                <Label 
+         Text="Data de Cadastro:" 
+         FontSize="20" 
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"
+         Grid.Row="4"
+         Margin="10,0,0,0"/>
+                <Entry
+         x:Name="Datadecadastro_Insumo_Entry"
+         IsEnabled="False"
+         Placeholder="Data de Cadastro"  
+         PlaceholderColor="Black"
+         FontSize="20"
+         HorizontalOptions="StartAndExpand" 
+         WidthRequest="170" 
+         HeightRequest="60" 
+         Grid.Row="4"
+         Margin="190,0,0,0"/>
+
+
+                <Label 
+         Text="Data de Venc:" 
+         FontSize="20" 
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"
+         Grid.Row="6"
+         Margin="10,0,0,0"/>
+                <Entry
+         x:Name="DatadevencimentoEntry_insumo"
+         IsEnabled="False"
+         Placeholder="Dt de vencimento"  
+         PlaceholderColor="Black"
+         FontSize="20"
+         HorizontalOptions="StartAndExpand" 
+         WidthRequest="170" 
+         HeightRequest="60" 
+         Grid.Row="6"
+         Margin="160,0,0,0"/>
+
+                <Label 
+         Text="Intercorrência:" 
+         FontSize="20" 
+         VerticalOptions="Center" 
+         HorizontalOptions="Start"
+         Grid.Row="7"
+         Margin="10,0,0,0"/>
+                <Editor
+         x:Name="IntercorrenciaEditor_Insumo"
+         IsEnabled="False"
+         Placeholder="Intecorrência"
+         PlaceholderColor="Black"
+         FontSize="20"
+         HorizontalOptions="StartAndExpand"
+         WidthRequest="200"
+         Grid.Row="7"
+         Margin="160,0,0,0"
+         AutoSize="TextChanges"/>
+
+                <Button
+             Clicked="Button_Selecionar_Insumo"
+             Text="Selecionar Produto"
+             FontSize="19"
+             BackgroundColor="Black"
+             WidthRequest="160"
+             HorizontalOptions="StartAndExpand"
+             Grid.Row="8"
+             Margin="10,30,0,0"/>
+
+                <Button
+            
+     Clicked="Button_Novo_Insumo"
+     Text="Novo Produto"
+     HorizontalOptions="StartAndExpand"
+     FontSize="19"
+     BackgroundColor="#DAA520"
+     WidthRequest="160"
+     Grid.Row="8"
+         
+     Margin="190,30,0,0"/>
+
+                <Button
+    Clicked="Button_Novo_Lote_Insumo"
+     Text="Novo Lote"
+     VerticalOptions="Fill"
+     HorizontalOptions="Start"
+     FontSize="19"
+     BackgroundColor="#DAA520"
+     WidthRequest="160"
+     Grid.Row="9"
+     Margin="10,30,0,0"
+     Padding="0,10,0,10"/>
+
+
+
+
+            </Grid>
+
+        </ScrollView>
+    </StackLayout>
+
+
+</ContentPage>
